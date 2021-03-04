@@ -4,7 +4,7 @@
 
 stage('Test') {
     parallel linux: {
-        node('slave1') {
+        node('master') {
             checkout scm
             try {
                  
