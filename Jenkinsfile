@@ -17,7 +17,7 @@ stage('Test') {
     },
     windows: {
         node('master') {
-            /echo "Run on Windows Master"
+            echo "Run on Windows Master"
         }
     }
 }
